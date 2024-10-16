@@ -1,11 +1,56 @@
 CS230 Teamwork 3:
 
 Andhika: Tester
+
 Jack: Project Leader
+
 Nic: Coder
+
 Seamus: Reviewer
 
+
+This assignment is to take weather_data.txt and format it for the user.
+
+for the sample output the program must:
+1. Ask the user if they would like to see temps in F or C
+2. Print the formatted weather data
+  ex. Oct 01, 2024 68.0°F, Cloudy
+      ...
+      Oct 30, 2024 69.0°F, Sunny
+3. print a tempurature bar chart:
+  ex.
+Oct 01, 2024: Cloudy Temp: 68.0°F | XXXXXXXXXXXXX
+Oct 02, 2024: Sunny Temp: 70.0°F  | XXXXXXXXXXXXXX
+Oct 03, 2024: Rainy Temp: 65.0°F  | XXXXXXXXXXXXX
+Oct 04, 2024: Sunny Temp: 72.0°F  | XXXXXXXXXXXXXX
+Oct 05, 2024: Rainy Temp: 66.0°F  | XXXXXXXXXXXXX
+Oct 06, 2024: Sunny Temp: 69.0°F  | XXXXXXXXXXXXX
+Oct 07, 2024: Cloudy Temp: 67.0°F | XXXXXXXXXXXXX
+Oct 08, 2024: Sunny Temp: 71.0°F  | XXXXXXXXXXXXXX
+....
+Oct 30, 2024: Sunny Temp: 69.0°F  | XXXXXXXXXXXXX
+4. print available weather forecasts:
+   ex. Available Weather Forecasts: Partly Cloudy, Rainy, Sunny, Cloudy
+Enter a weather forecast to get statistics: partly cloudy
+Number of days with Partly Cloudy weather: 2
+Dates with this forecast:
+- 2024-10-19
+- 2024-10-23
+
+5. Monthly Weather Summary:
+ex. 
+Highest Temperature: 72.0°F
+Number of days with highest temperature: 4
+Dates with highest temperature:
+- 2024-10-04
+- 2024-10-12
+- 2024-10-20
+- 2024-10-28
+Average Precipitation: 0.11 inches
+
+
 Notes:
+
 read_weather_data:
 Reads the data from weather_data.txt into an appropriate data structure. 
 Hint: think list of lists or list of tuples.
